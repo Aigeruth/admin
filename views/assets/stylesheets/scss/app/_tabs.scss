@@ -1,0 +1,41 @@
+.qor-layout__tabs{
+    .mdl-layout__container{
+        position: static;
+    }
+    .qor-layout__tabs-container{
+        margin: -16px -24px;
+        width: auto;
+        overflow: auto;
+        .mdl-layout__tab-bar-button{
+            display: none;
+        }
+        .mdl-layout__tab-bar{
+            width: 100%;
+        }
+    }
+    .qor-layout__tabs-content{
+        width: 100%;
+        padding: 0 24px;
+        box-sizing: border-box;
+        overflow: auto;
+        .mdl-layout__tab-panel{
+            padding: 16px 24px;
+        }
+    }
+    .qor-layout__tabs-header{
+        min-height: 48px;
+        height: 48px;
+        background-color: $color-slideout-header;
+        .mdl-layout__tab-bar{
+            background-color: $color-slideout-header;
+            padding: 0;
+        }
+        .mdl-layout__tab-bar-container{
+            height: 48px;
+        }
+        .mdl-layout__tab{
+            height: 48px;
+            line-height: 48px;
+        }
+    }
+}
