@@ -51,9 +51,6 @@
           $element = this.$element,
           data = $target.data();
 
-
-      console.log(e)
-
       if ($target.hasClass(CLASS_ACTIVE)){
         return;
       }
